@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.body-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60vh;
+  margin-bottom: 10px;
+}
+
+.hide-element {
+  display: none;
+}
+
+.left-navbar-container {
+  background-color: #e2e8f0;
+  padding: 10px;
+  width: 30%;
+  height: 60vh;
+}
+
+.body-text {
+  color: #475569;
+  font-size: 20px;
+}
+
+.nav-items {
+  list-style-type: none;
+  color: #64748b;
+  margin: 0px;
+  padding: 0px;
+}
+
+.context-container {
+  height: 60vh;
+  width: 40%;
+  padding: 10px;
+}
+
+.right-navbar-container {
+  height: 60vh;
+  width: 30%;
+  background-color: #e2e8f0;
+  padding: 10px;
+}
+
+.right-nav-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  height: 120px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #64748b;
+  padding: 10px;
+  color: #475569;
+  margin: 10px;
+}
